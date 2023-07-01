@@ -7,6 +7,13 @@ Console.WriteLine("[E]xit");
 
 String userChoice = Console.ReadLine();
 Console.WriteLine("User Input: " + userChoice);
-userChoice = "ABC";
-var reuslt = "abc" + "def" + "ghi";
+if (userChoice.Length > 10)
+    Console.WriteLine("yeahhhhh");
+
+//bool isUserInputAbc = userChoice == "ABC"; // same as asking if its equal to
+//Console.WriteLine(isUserInputAbc);
+//var number = 10;
+//var isLargerThan5 = number > 5;
+//Console.WriteLine(isLargerThan5);
+
 Console.ReadKey();
