@@ -13,25 +13,25 @@ var choice = Console.ReadLine();
 
 if (choice.ToUpper() == "A")
 {
-    var sum = first + second;
-    PrintFinalEquation(first, second, sum, "+");
+	var sum = first + second;
+	PrintFinalEquation(first, second, sum, "+");
 }
 else if (choice.ToUpper() == "S")
 {
-    var sum = first - second;
-    PrintFinalEquation(first, second, sum, "-");
+	var sum = first - second;
+	PrintFinalEquation(first, second, sum, "-");
 }
 else if (choice.ToUpper() == "M")
 {
-    var sum = first * second;
-    PrintFinalEquation(first, second, sum, "*");
+	var sum = first * second;
+	PrintFinalEquation(first, second, sum, "*");
 }
 else
-    Console.WriteLine("Invalid choice!");
+	Console.WriteLine("Invalid choice!");
 
 void PrintFinalEquation(int first, int second, int sum, string @operator)
 {
-    Console.WriteLine($"{first} {@operator} {second} = {sum}");
+	Console.WriteLine($"{first} {@operator} {second} = {sum}");
 }
 
 Console.ReadKey();

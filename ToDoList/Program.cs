@@ -6,29 +6,49 @@ Console.WriteLine("[R]emove a TODO");
 Console.WriteLine("[E]xit");
 
 String userChoice = Console.ReadLine();
+
 Console.WriteLine("User Input: " + userChoice);
-if (userChoice == "S")
-    PrintSelectedOption("See all TODOs");
-else if (userChoice == "A")
-    PrintSelectedOption("Add a TODO");
-else if (userChoice == "R")
-    PrintSelectedOption("Remove a TODO");
-else if (userChoice == "E")
-    PrintSelectedOption("Exit");
+
+if (userChoice.ToUpper() == "S")
+	PrintSelectedOption("See all TODOs");
+else if (userChoice.ToUpper() == "A")
+	PrintSelectedOption("Add a TODO");
+else if (userChoice.ToUpper() == "R")
+	PrintSelectedOption("Remove a TODO");
+else if (userChoice.ToUpper() == "E")
+	PrintSelectedOption("Exit");
+else
+	Console.WriteLine("Invalid choice!");
+
+//switch(userChoice)
+//{
+//	case "S":
+//	case "s":
+//		PrintSelectedOption("See all TODOs");
+//		break;
+//	case "A":
+//	case "a":
+//		PrintSelectedOption("Add a TODO");
+//		break;
+//	case "R":
+//	case "r":
+//		PrintSelectedOption("Remove a TODO");
+//		break;
+//	case "E":
+//	case "e":
+//		PrintSelectedOption("Exit");
+//		break;
+//	default:
+//		Console.WriteLine("Invalid choice!");
+//		break;
+//}
 
 void PrintSelectedOption(String userInput)
 {
-    Console.WriteLine("Selected option: " + userInput);
+	Console.WriteLine("Selected option: " + userInput);
 }
 
 
-//if (userChoice.Length > 10)
-//    Console.WriteLine("yeahhhhh");
-
 //bool isUserInputAbc = userChoice == "ABC"; // same as asking if its equal to
-//Console.WriteLine(isUserInputAbc);
-//var number = 10;
-//var isLargerThan5 = number > 5;
-//Console.WriteLine(isLargerThan5);
 
 Console.ReadKey();
