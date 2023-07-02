@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/bin/Debug/net7.0/Calculator
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/bin/Debug/net7.0/Calculator.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/bin/Debug/net7.0/Calculator.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/bin/Debug/net7.0/Calculator.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/bin/Debug/net7.0/Calculator.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/refint/Calculator.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/Calculator.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Calculator/obj/Debug/net7.0/ref/Calculator.dll

@@ -16,12 +16,10 @@ else if (userChoice == "R")
 else if (userChoice == "E")
     PrintSelectedOption("Exit");
 
-
 void PrintSelectedOption(String userInput)
 {
     Console.WriteLine("Selected option: " + userInput);
 }
-
 
 
 //if (userChoice.Length > 10)
