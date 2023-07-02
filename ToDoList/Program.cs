@@ -7,8 +7,25 @@ Console.WriteLine("[E]xit");
 
 String userChoice = Console.ReadLine();
 Console.WriteLine("User Input: " + userChoice);
-if (userChoice.Length > 10)
-    Console.WriteLine("yeahhhhh");
+if (userChoice == "S")
+    PrintSelectedOption("See all TODOs");
+else if (userChoice == "A")
+    PrintSelectedOption("Add a TODO");
+else if (userChoice == "R")
+    PrintSelectedOption("Remove a TODO");
+else if (userChoice == "E")
+    PrintSelectedOption("Exit");
+
+
+void PrintSelectedOption(String userInput)
+{
+    Console.WriteLine("Selected option: " + userInput);
+}
+
+
+
+//if (userChoice.Length > 10)
+//    Console.WriteLine("yeahhhhh");
 
 //bool isUserInputAbc = userChoice == "ABC"; // same as asking if its equal to
 //Console.WriteLine(isUserInputAbc);
