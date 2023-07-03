@@ -27,12 +27,12 @@ while (true)
 
 void removeToDo()
 {
-	int index;
 	if (toTOList.Count == 0)
 	{
 		Console.WriteLine("No TODOs have been added yet.");
 		return;
 	}
+	int index;
 	while (true)
 	{
 		Console.WriteLine("Select the index of the TODO you want to remove");

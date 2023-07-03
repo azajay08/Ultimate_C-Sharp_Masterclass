@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "..\Calculator\Calculator.csproj", "{C0F89FFC-92AA-49B0-903E-31C171126831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstClass", "..\FirstClass\FirstClass.csproj", "{BB5D539D-945E-48CE-A641-E6CA3F47574F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C0F89FFC-92AA-49B0-903E-31C171126831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0F89FFC-92AA-49B0-903E-31C171126831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0F89FFC-92AA-49B0-903E-31C171126831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
