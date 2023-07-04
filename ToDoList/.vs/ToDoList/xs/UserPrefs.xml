@@ -3,15 +3,22 @@
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FirstClass FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Calculator/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../FirstClass/Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="17" Column="33" />
-      <File FileName="../Calculator/Program.cs" Line="38" Column="1" />
+      <File FileName="Program.cs" Line="27" Column="1" />
+      <File FileName="../Calculator/Program.cs" Line="22" Column="46" />
+      <File FileName="../FirstClass/Program.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="ToDoList">
+            <Node name="FirstClass">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
@@ -20,6 +27,8 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/aaronjones/Code/CSharp_Projects/MasterClass/ToDoList/Program.cs" relfile="Program.cs" line="26" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
