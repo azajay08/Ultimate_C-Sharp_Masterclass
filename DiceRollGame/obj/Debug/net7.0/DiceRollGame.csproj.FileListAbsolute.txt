@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/bin/Debug/net7.0/DiceRollGame
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/bin/Debug/net7.0/DiceRollGame.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/bin/Debug/net7.0/DiceRollGame.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/bin/Debug/net7.0/DiceRollGame.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/bin/Debug/net7.0/DiceRollGame.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/refint/DiceRollGame.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/DiceRollGame.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/DiceRollGame/obj/Debug/net7.0/ref/DiceRollGame.dll
