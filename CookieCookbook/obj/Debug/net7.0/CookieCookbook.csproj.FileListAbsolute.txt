@@ -1,0 +1,5 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbook/obj/Debug/net7.0/CookieCookbook.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbook/obj/Debug/net7.0/CookieCookbook.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbook/obj/Debug/net7.0/CookieCookbook.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbook/obj/Debug/net7.0/CookieCookbook.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbook/obj/Debug/net7.0/CookieCookbook.csproj.CoreCompileInputs.cache

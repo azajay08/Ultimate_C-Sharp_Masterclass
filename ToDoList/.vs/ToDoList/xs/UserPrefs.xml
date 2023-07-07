@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}|Default">
+﻿<Properties StartupConfiguration="{2B3C99AF-1C53-4293-9ACD-F02E84989530}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="../FirstClass/Program.cs">
     <Files>
       <File FileName="Program.cs" Line="27" Column="1" />
@@ -24,7 +24,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CookieCookbook PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
