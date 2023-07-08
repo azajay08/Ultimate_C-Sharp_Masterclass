@@ -1,13 +1,16 @@
-﻿var cookiesRecipesApp = new CookiesRecipeApp();
+﻿var cookiesRecipesApp = new CookiesRecipeApp(
+	new RecipeRepository(),
+	new RecipeConsoleUserInteraction());
 cookiesRecipesApp.Run();
 
 public class CookiesRecipeApp
 {
-	private readonly RecipeRepository _recipeRepository;
-	private readonly RecipeUserInteraction _recipeUserInteraction;
+	private readonly IRecipeRepository _recipeRepository;
+	private readonly IRecipeConsoleUserInteraction _recipeUserInteraction;
 
-	public CookiesRecipeApp(RecipeRepository recipeRepository,
-		RecipeUserInteraction recipeUserInteraction)
+	public CookiesRecipeApp(
+		IRecipeRepository recipeRepository,
+		IRecipeConsoleUserInteraction recipeUserInteraction)
 	{
 		_recipeRepository = recipeRepository;
 		_recipeUserInteraction = recipeUserInteraction;
@@ -24,7 +27,7 @@ public class CookiesRecipeApp
 
 		if (ingredients.Count > 0)
 		{
-			var recipes = new CookiesRecipeApp(ingredients);
+			var recipes = new Recipe(ingredients);
 			allRecipes.Add(recipe);
 			_recipeRepository.Write(filePath, allRecipes);
 
@@ -42,7 +45,17 @@ public class CookiesRecipeApp
 	}
 }
 
-public class RecipeUserInteraction
+public interface IRecipeConsoleUserInteraction
+{
+	void ShowMessage(string message);
+	void Exit();
+}
+
+public interface IRecipeRepository
+{
+}
+
+public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 {
 	public void ShowMessage(string message)
 	{
@@ -56,6 +69,6 @@ public class RecipeUserInteraction
 	}
 }
 
-public class RecipeRepository
+public class RecipeRepository : IRecipeRepository
 {
 }

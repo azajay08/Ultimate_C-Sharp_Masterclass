@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Recipes\" />
+    <None Remove="Recipes\Ingredients\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recipes\" />
+    <Folder Include="Recipes\Ingredients\" />
   </ItemGroup>
 </Project>
