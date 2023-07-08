@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Recipes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recipes\" />
+  </ItemGroup>
 </Project>
