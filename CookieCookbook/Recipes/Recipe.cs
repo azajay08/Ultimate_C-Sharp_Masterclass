@@ -52,5 +52,50 @@
 		public override string Name => "Brown suagr";
 	}
 
+	public abstract class Flour : Ingredient
+	{
+		public override string PrepInstructions =>
+			$"Sieve. {base.PrepInstructions}";
+	}
+
+	public class WheatFlour : Flour
+	{
+		public override int Id => 5;
+		public override string Name => "Wheat flour";
+	}
+
+	public class SpeltFlour : Ingredient
+	{
+		public override int Id => 6;
+		public override string Name => "Spelt flour";
+	}
+
+	public abstract class Egg : Ingredient
+	{
+		public override string PrepInstructions =>
+			$"{base.PrepInstructions} Mix";
+	}
+
+	public class EggYolk : Egg
+	{
+		public override int Id => 7;
+		public override string Name => "Egg yolk";
+	}
+
+	public class EggWhite : Egg
+	{
+		public override int Id => 8;
+		public override string Name => "Egg white";
+	}
+
+	public class WholeEgg : Egg
+	{
+		public override int Id => 9;
+		public override string Name => "Whole Egg";
+		public override string PrepInstructions =>
+			$"Beat the egg. {base.PrepInstructions}. Mix";
+	}
+
+	
 }
 
