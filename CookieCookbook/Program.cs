@@ -1,4 +1,8 @@
-﻿var cookiesRecipesApp = new CookiesRecipeApp(
+﻿using CookieCookbook.Recipes;
+using CookieCookbook.Recipes.Ingredients;
+
+
+var cookiesRecipesApp = new CookiesRecipeApp(
 	new RecipeRepository(),
 	new RecipeConsoleUserInteraction());
 cookiesRecipesApp.Run();
@@ -53,6 +57,7 @@ public interface IRecipeConsoleUserInteraction
 
 public interface IRecipeRepository
 {
+	List<Recipe> Read(string filePath);
 }
 
 public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
@@ -71,4 +76,23 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 
 public class RecipeRepository : IRecipeRepository
 {
+	public List<Recipe> Read(string filePath)
+	{
+		return new List<Recipe>
+		{
+			new Recipe(new List<Ingredient>
+			{
+				new WheatFlour(),
+				new Butter(),
+				new CasterSugar()
+			}),
+			new Recipe(new List<Ingredient>
+			{
+				new CocoaPowder(),
+				new SpeltFlour(),
+				new Cinnamon()
+			})
+		};
+
+	}
 }
