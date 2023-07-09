@@ -1,5 +1,6 @@
 ﻿using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
+using CookieCookbook.App;
 
 
 var cookiesRecipesApp = new CookiesRecipeApp(
@@ -46,120 +47,5 @@ public class CookiesRecipeApp
 		//		"Recipe will not be saved.");
 		//}
 		_recipeUserInteraction.Exit();
-	}
-}
-
-public interface IRecipeConsoleUserInteraction
-{
-	void ShowMessage(string message);
-	void Exit();
-	void PrintExsistingRecipes(IEnumerable<Recipe> allRecipes);
-	void PromptToCreateRecipe();
-	IEnumerable<Ingredient> ReadIngredientsFromUser();
-}
-
-public interface IRecipeRepository
-{
-	List<Recipe> Read(string filePath);
-	void Write(object filePath, List<Recipe> allRecipes);
-}
-
-public class IngredientRegister
-{
-	public IEnumerable<Ingredient> All { get; } = new List<Ingredient>
-	{
-		new Butter(),
-		new CocoaPowder(),
-		new CasterSugar(),
-		new BrownSugar(),
-		new WheatFlour(),
-		new SpeltFlour(),
-		new EggYolk(),
-		new EggWhite(),
-		new WholeEgg(),
-		new Cardomon(),
-		new Cinnamon()
-	};
-}
-
-public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
-{
-	private readonly IngredientRegister _ingredientsRegister;
-
-
-	public RecipeConsoleUserInteraction(IngredientRegister ingredientRegister)
-	{
-		_ingredientsRegister = ingredientRegister;
-	}
-
-	public void ShowMessage(string message)
-	{
-		Console.WriteLine(message);
-	}
-
-	public void Exit()
-	{
-		Console.WriteLine("Press any key to close.");
-		Console.ReadKey();
-	}
-
-	void IRecipeConsoleUserInteraction.PrintExsistingRecipes(IEnumerable<Recipe> allRecipes)
-	{
-		if (allRecipes.Count() > 0)
-		{
-			Console.WriteLine("Existing recipes are:" + Environment.NewLine);
-			var recipeNum = 1;
-			foreach (var recipe in allRecipes)
-			{
-				Console.WriteLine($"*****{recipeNum}*****");
-				Console.WriteLine(recipe + Environment.NewLine);
-				recipeNum++;
-			}
-		}
-	}
-
-	void IRecipeConsoleUserInteraction.PromptToCreateRecipe()
-	{
-		Console.WriteLine("Create a new cookie recipe! " +
-			"Available ingrediendts are:");
-
-		foreach (var ingredient in _ingredientsRegister.All)
-		{
-			Console.WriteLine(ingredient);
-		}
-	}
-
-	IEnumerable<Ingredient> IRecipeConsoleUserInteraction.ReadIngredientsFromUser()
-	{
-		throw new NotImplementedException();
-	}
-}
-
-
-public class RecipeRepository : IRecipeRepository
-{
-	public List<Recipe> Read(string filePath)
-	{
-		return new List<Recipe>
-		{
-			new Recipe(new List<Ingredient>
-			{
-				new WheatFlour(),
-				new Butter(),
-				new CasterSugar()
-			}),
-			new Recipe(new List<Ingredient>
-			{
-				new CocoaPowder(),
-				new SpeltFlour(),
-				new Cinnamon()
-			})
-		};
-
-	}
-
-	void IRecipeRepository.Write(object filePath, List<Recipe> allRecipes)
-	{
-		throw new NotImplementedException();
 	}
 }
