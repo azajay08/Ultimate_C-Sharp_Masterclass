@@ -4,7 +4,7 @@ using CookieCookbook.Recipes.Ingredients;
 
 var cookiesRecipesApp = new CookiesRecipeApp(
 	new RecipeRepository(),
-	new RecipeConsoleUserInteraction());
+	new RecipeConsoleUserInteraction(new IngredientRegister()));
 cookiesRecipesApp.Run("recipes.txt");
 
 public class CookiesRecipeApp
@@ -25,7 +25,7 @@ public class CookiesRecipeApp
 		var allRecipes = _recipeRepository.Read(filePath);
 		_recipeUserInteraction.PrintExsistingRecipes(allRecipes);
 
-		//_recipeUserInteraction.PromptToCreateRecipe();
+		_recipeUserInteraction.PromptToCreateRecipe();
 
 		//var ingredients = _recipeUserInteraction.ReadIngredientsFromUser();
 
@@ -64,8 +64,34 @@ public interface IRecipeRepository
 	void Write(object filePath, List<Recipe> allRecipes);
 }
 
+public class IngredientRegister
+{
+	public IEnumerable<Ingredient> All { get; } = new List<Ingredient>
+	{
+		new Butter(),
+		new CocoaPowder(),
+		new CasterSugar(),
+		new BrownSugar(),
+		new WheatFlour(),
+		new SpeltFlour(),
+		new EggYolk(),
+		new EggWhite(),
+		new WholeEgg(),
+		new Cardomon(),
+		new Cinnamon()
+	};
+}
+
 public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 {
+	private readonly IngredientRegister _ingredientsRegister;
+
+
+	public RecipeConsoleUserInteraction(IngredientRegister ingredientRegister)
+	{
+		_ingredientsRegister = ingredientRegister;
+	}
+
 	public void ShowMessage(string message)
 	{
 		Console.WriteLine(message);
@@ -94,7 +120,13 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 
 	void IRecipeConsoleUserInteraction.PromptToCreateRecipe()
 	{
-		throw new NotImplementedException();
+		Console.WriteLine("Create a new cookie recipe! " +
+			"Available ingrediendts are:");
+
+		foreach (var ingredient in _ingredientsRegister.All)
+		{
+			Console.WriteLine(ingredient);
+		}
 	}
 
 	IEnumerable<Ingredient> IRecipeConsoleUserInteraction.ReadIngredientsFromUser()
@@ -102,6 +134,7 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 		throw new NotImplementedException();
 	}
 }
+
 
 public class RecipeRepository : IRecipeRepository
 {
