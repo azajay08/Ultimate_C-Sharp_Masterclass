@@ -24,7 +24,7 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 		Console.ReadKey();
 	}
 
-	void IRecipeConsoleUserInteraction.PrintExsistingRecipes(IEnumerable<Recipe> allRecipes)
+	public void PrintExsistingRecipes(IEnumerable<Recipe> allRecipes)
 	{
 		if (allRecipes.Count() > 0)
 		{
@@ -39,7 +39,7 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 		}
 	}
 
-	void IRecipeConsoleUserInteraction.PromptToCreateRecipe()
+	public void PromptToCreateRecipe()
 	{
 		Console.WriteLine("Create a new cookie recipe! " +
 			"Available ingrediendts are:");
@@ -50,8 +50,26 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 		}
 	}
 
-	IEnumerable<Ingredient> IRecipeConsoleUserInteraction.ReadIngredientsFromUser()
+	public IEnumerable<Ingredient> ReadIngredientsFromUser()
 	{
-		throw new NotImplementedException();
+		var ingredients = new List<Ingredient>();
+		while (true)
+		{
+			Console.WriteLine("Add an ingredient by it's ID, " +
+				"or type anything else.");
+
+			var userInput = Console.ReadLine();
+
+			if (int.TryParse(userInput, out int id))
+			{
+				var selectedIngredient = _ingredientsRegister.GetById(id);
+				if (selectedIngredient is not null)
+					ingredients.Add(selectedIngredient);
+			}
+			else
+				break;
+		}
+
+		return ingredients;
 	}
 }

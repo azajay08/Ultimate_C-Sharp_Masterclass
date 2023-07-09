@@ -24,7 +24,7 @@ public class RecipeRepository : IRecipeRepository
 
 	}
 
-	void IRecipeRepository.Write(object filePath, List<Recipe> allRecipes)
+	public void Write(object filePath, List<Recipe> allRecipes)
 	{
 		throw new NotImplementedException();
 	}
