@@ -5,10 +5,10 @@ namespace CookieCookbook.App;
 
 public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 {
-	private readonly IngredientRegister _ingredientsRegister;
+	private readonly IIngredientRegister _ingredientsRegister;
 
 
-	public RecipeConsoleUserInteraction(IngredientRegister ingredientRegister)
+	public RecipeConsoleUserInteraction(IIngredientRegister ingredientRegister)
 	{
 		_ingredientsRegister = ingredientRegister;
 	}
@@ -42,7 +42,7 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 	public void PromptToCreateRecipe()
 	{
 		Console.WriteLine("Create a new cookie recipe! " +
-			"Available ingrediendts are:");
+			"Available ingredients are:");
 
 		foreach (var ingredient in _ingredientsRegister.All)
 		{

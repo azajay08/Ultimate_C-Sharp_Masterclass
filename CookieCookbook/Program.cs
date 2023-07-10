@@ -1,11 +1,19 @@
 ﻿using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
 using CookieCookbook.App;
+using CookieCookbook.Tools.StringTools;
+
+IStringsRepository stringsRepository =
+	new StringsTextFileRepository();
+var ingredientRegister = new IngredientRegister();
 
 
 var cookiesRecipesApp = new CookiesRecipeApp(
-	new RecipeRepository(),
-	new RecipeConsoleUserInteraction(new IngredientRegister()));
+	new RecipeRepository(
+		stringsRepository,
+		ingredientRegister),
+	new RecipeConsoleUserInteraction(
+		ingredientRegister));
 cookiesRecipesApp.Run("recipes.txt");
 
 public class CookiesRecipeApp

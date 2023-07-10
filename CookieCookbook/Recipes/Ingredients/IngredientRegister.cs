@@ -1,6 +1,6 @@
 ﻿namespace CookieCookbook.Recipes.Ingredients;
 
-public class IngredientRegister
+public class IngredientRegister : IIngredientRegister
 {
 	public IEnumerable<Ingredient> All { get; } = new List<Ingredient>
 	{
@@ -13,8 +13,8 @@ public class IngredientRegister
 		new EggYolk(),
 		new EggWhite(),
 		new WholeEgg(),
-		new Cardomon(),
-		new Cinnamon()
+		new Cinnamon(),
+		new Cardomon()
 	};
 
 	public Ingredient GetById(int id)
