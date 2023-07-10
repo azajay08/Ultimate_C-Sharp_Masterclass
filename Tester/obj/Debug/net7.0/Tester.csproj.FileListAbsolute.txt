@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/bin/Debug/net7.0/Tester
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/bin/Debug/net7.0/Tester.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/bin/Debug/net7.0/Tester.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/bin/Debug/net7.0/Tester.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/bin/Debug/net7.0/Tester.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/refint/Tester.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/Tester.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/Tester/obj/Debug/net7.0/ref/Tester.dll

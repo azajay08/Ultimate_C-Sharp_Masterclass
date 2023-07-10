@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "..\DiceRoll
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieCookbook", "..\CookieCookbook\CookieCookbook.csproj", "{2B3C99AF-1C53-4293-9ACD-F02E84989530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "..\Tester\Tester.csproj", "{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
