@@ -1,4 +1,4 @@
-﻿namespace CookieCookbook.Tools.StringTools;
+﻿namespace CookieCookbook.Tools.DataAccess;
 
 public interface IStringsRepository
 {

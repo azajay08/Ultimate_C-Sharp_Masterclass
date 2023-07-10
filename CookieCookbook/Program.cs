@@ -1,7 +1,7 @@
 ﻿using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
 using CookieCookbook.App;
-using CookieCookbook.Tools.StringTools;
+using CookieCookbook.Tools.DataAccess;
 
 IStringsRepository stringsRepository =
 	new StringsTextFileRepository();

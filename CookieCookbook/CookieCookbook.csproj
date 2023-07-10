@@ -12,15 +12,15 @@
     <None Remove="Recipes\Ingredients\" />
     <None Remove="App\" />
     <None Remove="Tools\" />
-    <None Remove="Tools\StringTools\" />
-    <None Remove="Tools\FileTools\" />
+    <None Remove="Tools\DataAccess\" />
+    <None Remove="Tools\FileFormatting\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recipes\" />
     <Folder Include="Recipes\Ingredients\" />
     <Folder Include="App\" />
     <Folder Include="Tools\" />
-    <Folder Include="Tools\StringTools\" />
-    <Folder Include="Tools\FileTools\" />
+    <Folder Include="Tools\DataAccess\" />
+    <Folder Include="Tools\FileFormatting\" />
   </ItemGroup>
 </Project>
