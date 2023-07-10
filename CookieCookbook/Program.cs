@@ -34,7 +34,7 @@ public class CookiesRecipeApp
 		{
 			var recipe = new Recipe(ingredients);
 			allRecipes.Add(recipe);
-			//_recipeRepository.Write(filePath, allRecipes);
+			_recipeRepository.Write(filePath, allRecipes);
 
 			_recipeUserInteraction.ShowMessage("Recipe added: ");
 			_recipeUserInteraction.ShowMessage(recipe.ToString());
