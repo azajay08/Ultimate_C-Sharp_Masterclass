@@ -3,7 +3,7 @@ using CookieCookbook.Recipes.Ingredients;
 
 namespace CookieCookbook.App;
 
-public interface IRecipeConsoleUserInteraction
+public interface IRecipeUserInteraction
 {
 	void ShowMessage(string message);
 	void Exit();

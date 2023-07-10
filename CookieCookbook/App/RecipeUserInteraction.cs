@@ -3,12 +3,12 @@ using CookieCookbook.Recipes.Ingredients;
 
 namespace CookieCookbook.App;
 
-public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
+public class RecipeUserInteraction : IRecipeUserInteraction
 {
 	private readonly IIngredientRegister _ingredientsRegister;
 
 
-	public RecipeConsoleUserInteraction(IIngredientRegister ingredientRegister)
+	public RecipeUserInteraction(IIngredientRegister ingredientRegister)
 	{
 		_ingredientsRegister = ingredientRegister;
 	}
@@ -55,7 +55,7 @@ public class RecipeConsoleUserInteraction : IRecipeConsoleUserInteraction
 		var ingredients = new List<Ingredient>();
 		while (true)
 		{
-			Console.WriteLine("Add an ingredient by it's ID, " +
+			Console.WriteLine("Add an ingredient by ID, " +
 				"or type anything else.");
 
 			var userInput = Console.ReadLine();

@@ -3,7 +3,7 @@
 	public class CasterSugar : Sugar
 	{
 		public override int Id => 3;
-		public override string Name => "Caster suagr";
+		public override string Name => "Caster sugar";
 	}
 }
 
