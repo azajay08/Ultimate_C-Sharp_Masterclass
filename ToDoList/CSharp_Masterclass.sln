@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "..\Calculator\Calculator.csproj", "{C0F89FFC-92AA-49B0-903E-31C171126831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstClass", "..\FirstClass\FirstClass.csproj", "{BB5D539D-945E-48CE-A641-E6CA3F47574F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "..\DiceRollGame\DiceRollGame.csproj", "{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieCookbook", "..\CookieCookbook\CookieCookbook.csproj", "{2B3C99AF-1C53-4293-9ACD-F02E84989530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "..\Tester\Tester.csproj", "{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{639EDDAE-8888-4DB2-BBC7-5FC923560024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0F89FFC-92AA-49B0-903E-31C171126831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F89FFC-92AA-49B0-903E-31C171126831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F89FFC-92AA-49B0-903E-31C171126831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F89FFC-92AA-49B0-903E-31C171126831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5D539D-945E-48CE-A641-E6CA3F47574F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B64FC0-83E1-4BB3-B04D-4F71C3043FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3C99AF-1C53-4293-9ACD-F02E84989530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639EDDAE-8888-4DB2-BBC7-5FC923560024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639EDDAE-8888-4DB2-BBC7-5FC923560024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639EDDAE-8888-4DB2-BBC7-5FC923560024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639EDDAE-8888-4DB2-BBC7-5FC923560024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 80
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 80
+		$3.scope = text/plain
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B48AA7-C46A-4773-BEE0-4881E3D1E63F}
+	EndGlobalSection
+EndGlobal
