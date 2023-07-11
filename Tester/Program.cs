@@ -1,5 +1,10 @@
 ﻿string input = "Hello";
-int number = int.Parse(input);
+int number = ParseStr(input);
 
-Console.WriteLine(number);
+Console.ReadKey();
+
+int ParseStr(string input)
+{
+	return int.Parse(input);
+}
 

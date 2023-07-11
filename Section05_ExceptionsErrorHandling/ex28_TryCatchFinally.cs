@@ -6,11 +6,19 @@ namespace Coding.Exercise
 	{
 		public static int DivideNumbers(int a, int b)
 		{
-			//your code goes here
-			
-			return a / b;
-			
-			//your code goes here
+			try
+			{
+				return a / b;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("Division by zero.");
+				return 0;
+			}
+			finally
+			{
+				Console.WriteLine($"The {nameof(DivideNumbers)} method ends.");
+			}
 		}
 	}
 }
