@@ -27,5 +27,12 @@ public class UserInterface : IUserInterface
 		Console.WriteLine(message);
 	}
 
+	public void PrintErrors(string message)
+	{
+		var originalColor = Console.ForegroundColor;
+		Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine(message);
+        Console.ForegroundColor = originalColor;
+	}
 }
 

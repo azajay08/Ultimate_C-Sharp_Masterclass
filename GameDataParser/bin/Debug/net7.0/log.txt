@@ -8,3 +8,21 @@ Exception message: '{' is invalid after a value. Expected either ',', '}', or ']
 Stack trace:    at GameDataParser.Run() in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/Program.cs:line 49
    at Program.<Main>$(String[] args) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/Program.cs:line 9
 
+[7/13/2023 1:39:31 AM]
+Exception message: The JSON value could not be converted to GameDataParser.Model.VideoGame. Path: $[0] | LineNumber: 0 | BytePositionInLine: 2. The file is: log.txt
+Stack trace:    at GameDataParser.FileTools.JsonFormatChecker.DeserializeFrom(String fileName, String fileContents) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/FileTools/JsonFormatChecker.cs:line 29
+   at GameDataParser.App.GameDataParserApp.Run() in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/App/GameDataParserApp.cs:line 25
+   at Program.<Main>$(String[] args) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/Program.cs:line 16
+
+[7/13/2023 1:40:03 AM]
+Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2. The file is: gamesinvalidformat.json
+Stack trace:    at GameDataParser.FileTools.JsonFormatChecker.DeserializeFrom(String fileName, String fileContents) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/FileTools/JsonFormatChecker.cs:line 29
+   at GameDataParser.App.GameDataParserApp.Run() in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/App/GameDataParserApp.cs:line 25
+   at Program.<Main>$(String[] args) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/Program.cs:line 16
+
+[7/13/2023 1:41:34 AM]
+Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2. The file is: gamesinvalidformat.json
+Stack trace:    at GameDataParser.FileTools.JsonFormatChecker.DeserializeFrom(String fileName, String fileContents) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/FileTools/JsonFormatChecker.cs:line 29
+   at GameDataParser.App.GameDataParserApp.Run() in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/App/GameDataParserApp.cs:line 25
+   at Program.<Main>$(String[] args) in /Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/Program.cs:line 16
+

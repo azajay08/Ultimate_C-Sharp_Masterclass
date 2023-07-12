@@ -12,11 +12,13 @@
     <None Remove="App\" />
     <None Remove="UserInteraction\" />
     <None Remove="Logging\" />
+    <None Remove="FileTools\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="App\" />
     <Folder Include="UserInteraction\" />
     <Folder Include="Logging\" />
+    <Folder Include="FileTools\" />
   </ItemGroup>
 </Project>
