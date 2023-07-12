@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/bin/Debug/net7.0/GameDataParser
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/bin/Debug/net7.0/GameDataParser.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/bin/Debug/net7.0/GameDataParser.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/bin/Debug/net7.0/GameDataParser.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/bin/Debug/net7.0/GameDataParser.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/refint/GameDataParser.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/GameDataParser.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/GameDataParser/obj/Debug/net7.0/ref/GameDataParser.dll

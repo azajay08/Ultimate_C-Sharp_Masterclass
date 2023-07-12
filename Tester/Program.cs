@@ -1,9 +1,9 @@
 ﻿string input = "Hello";
-int number = ParseStr(input);
+int number = ParseStrToInt(input);
 
 Console.ReadKey();
 
-int ParseStr(string input)
+int ParseStrToInt(string input)
 {
 	return int.Parse(input);
 }

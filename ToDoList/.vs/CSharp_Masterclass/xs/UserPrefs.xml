@@ -1,24 +1,19 @@
-﻿<Properties StartupConfiguration="{4A5DF375-8B6C-4E02-9A7C-4F1AE6ECDFBE}|Default">
+﻿<Properties StartupConfiguration="{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.CookieCookbook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <DisabledProjects>
     <String>ToDoList.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Tester/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../GameDataParser/Program.cs">
     <Files>
-      <File FileName="../CookieCookbook/Recipes/Recipe.cs" />
-      <File FileName="../CookieCookbook/Recipes/Ingredients/CasterSugar.cs" />
-      <File FileName="../CookieCookbook/Recipes/Ingredients/BrownSugar.cs" Line="10" Column="1" />
-      <File FileName="Program.cs" Line="26" Column="1" />
-      <File FileName="../CookieCookbook/Recipes/RecipeRepository.cs" Line="1" Column="1" />
-      <File FileName="../Calculator/Program.cs" Line="1" Column="1" />
-      <File FileName="../FirstClass/Program.cs" Line="1" Column="1" />
-      <File FileName="../DiceRollGame/Program.cs" Line="1" Column="1" />
-      <File FileName="../Tester/Program.cs" Line="6" Column="1" />
+      <File FileName="ToDoList/Program.cs" Line="2" Column="1" />
+      <File FileName="../GameDataParser/Program.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,6 +23,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Tester PreferredExecutionTarget="MonoDevelop.Default" />
