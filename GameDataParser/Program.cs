@@ -5,6 +5,7 @@ Console.WriteLine("Enter the name of the file you want read:");
 
 var fileName = Console.ReadLine();
 
+
 var fileContents = File.ReadAllText(fileName);
 
 var videoGames = JsonSerializer.Deserialize<List<VideoGame>>(fileContents);
@@ -26,9 +27,8 @@ Console.ReadKey();
 public class VideoGame
 {
 	public string Title { get; init; }
-	public int ReleaseDate { get; init; }
+	public int ReleaseYear { get; init; }
 	public decimal Rating { get; init; }
 
-	public override string ToString() => $"{Title} was released in {ReleaseDate}, with a rating of {Rating}";
-
+	public override string ToString() => $"{Title} ({ReleaseYear}) - {Rating}/5";
 }
