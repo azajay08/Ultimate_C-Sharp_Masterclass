@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Model\" />
+    <None Remove="App\" />
+    <None Remove="UserInteraction\" />
+    <None Remove="Logging\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="App\" />
+    <Folder Include="UserInteraction\" />
+    <Folder Include="Logging\" />
+  </ItemGroup>
 </Project>

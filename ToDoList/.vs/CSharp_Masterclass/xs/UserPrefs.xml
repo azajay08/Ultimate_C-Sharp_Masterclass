@@ -10,15 +10,26 @@
   <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../GameDataParser/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../GameDataParser/App/GameDataParser.cs">
     <Files>
-      <File FileName="ToDoList/Program.cs" Line="2" Column="1" />
-      <File FileName="../GameDataParser/Program.cs" Line="8" Column="1" />
+      <File FileName="../GameDataParser/Program.cs" Line="11" Column="21" />
+      <File FileName="../GameDataParser/Logger.cs" Line="12" Column="31" />
+      <File FileName="../GameDataParser/GameDataParser.cs" Line="2" Column="28" />
+      <File FileName="ToDoList/Program.cs" Line="1" Column="1" />
+      <File FileName="../GameDataParser/Model/VideoGame.cs" Line="12" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CSharp_Masterclass" expanded="True" selected="True" />
+          <Node name="CSharp_Masterclass">
+            <Node name="GameDataParser">
+              <Node name="App" expanded="True">
+                <Node name="GameDataParser.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="ToDoList" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

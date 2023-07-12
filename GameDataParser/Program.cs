@@ -1,34 +1,23 @@
-﻿using System.Text.Json;
+﻿using GameDataParser.App;
+using GameDataParser.UserInteraction;
+using GameDataParser.Logging;
 
-var hello = "Hello";
-Console.WriteLine("Enter the name of the file you want read:");
+var app = new GameDataParserApp(
+	new UserInterface());
+var logger = new Logger("log.txt");
 
-var fileName = Console.ReadLine();
-
-
-var fileContents = File.ReadAllText(fileName);
-
-var videoGames = JsonSerializer.Deserialize<List<VideoGame>>(fileContents);
-
-if (videoGames.Count() > 0)
+try
 {
-	Console.WriteLine();
-	Console.WriteLine("Loaded games are: ");
-	foreach (var game in videoGames)
-	{
-		Console.WriteLine(game);
-	}
+	app.Run();
 }
+catch (Exception ex)
+{
+	Console.WriteLine(
+		"Sorry! The application has experienced an unexpected error " +
+		"and will have to be closed.");
+	logger.Log(ex);
+}
+
 Console.WriteLine("Press any key to close.");
 
 Console.ReadKey();
-
-
-public class VideoGame
-{
-	public string Title { get; init; }
-	public int ReleaseYear { get; init; }
-	public decimal Rating { get; init; }
-
-	public override string ToString() => $"{Title} ({ReleaseYear}) - {Rating}/5";
-}
