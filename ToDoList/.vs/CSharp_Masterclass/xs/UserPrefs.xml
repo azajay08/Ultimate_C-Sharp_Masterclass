@@ -1,42 +1,31 @@
 ﻿<Properties StartupConfiguration="{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CookieCookbook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>ToDoList.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../GameDataParser/App/GameDataParser.cs">
-    <Files>
-      <File FileName="../GameDataParser/Program.cs" Line="11" Column="21" />
-      <File FileName="../GameDataParser/Logger.cs" Line="12" Column="31" />
-      <File FileName="../GameDataParser/GameDataParser.cs" Line="2" Column="28" />
-      <File FileName="ToDoList/Program.cs" Line="1" Column="1" />
-      <File FileName="../GameDataParser/Model/VideoGame.cs" Line="12" Column="1" NotebookId="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CSharp_Masterclass">
-            <Node name="GameDataParser">
-              <Node name="App" expanded="True">
-                <Node name="GameDataParser.cs" selected="True" />
-              </Node>
-              <Node name="Model" expanded="True" />
+          <Node name="CSharp_Masterclass" expanded="True">
+            <Node name="GameDataParser" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="ToDoList" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Tester PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
