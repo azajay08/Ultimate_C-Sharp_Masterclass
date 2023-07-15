@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDataParser", "..\GameDataParser\GameDataParser.csproj", "{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCache", "..\CustomCache\CustomCache.csproj", "{077ED40E-AFC8-4EAE-A2BD-C45FDB720952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5DE13FF-FD3C-4602-AA90-3BB8206E46FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077ED40E-AFC8-4EAE-A2BD-C45FDB720952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077ED40E-AFC8-4EAE-A2BD-C45FDB720952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077ED40E-AFC8-4EAE-A2BD-C45FDB720952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077ED40E-AFC8-4EAE-A2BD-C45FDB720952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
