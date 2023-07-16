@@ -21,7 +21,6 @@ public class Cache<TKey, TData>
 		{
 			_cacheData[key] = newEntry(key);
 		}
-
 		return _cacheData[key];
 	}
 }
@@ -68,8 +67,7 @@ public class SlowDataDownloader : IDataDownloader
 
 	public string DownloadData(string resourceId)
 	{
-		//let's imagine this method downloads real data,
-		//and it does it slowly
+		// This is a replicating the behaviour of slow downloading
 		Thread.Sleep(1000);
 		return $"Some data for {resourceId}";
 	}
