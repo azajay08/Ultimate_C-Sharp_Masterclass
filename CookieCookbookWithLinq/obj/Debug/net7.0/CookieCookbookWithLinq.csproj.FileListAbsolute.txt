@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/bin/Debug/net7.0/CookieCookbookWithLinq
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/bin/Debug/net7.0/CookieCookbookWithLinq.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/bin/Debug/net7.0/CookieCookbookWithLinq.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/bin/Debug/net7.0/CookieCookbookWithLinq.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/bin/Debug/net7.0/CookieCookbookWithLinq.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/refint/CookieCookbookWithLinq.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/CookieCookbookWithLinq.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CookieCookbookWithLinq/obj/Debug/net7.0/ref/CookieCookbookWithLinq.dll
