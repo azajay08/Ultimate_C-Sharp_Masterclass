@@ -19,11 +19,22 @@ public class IngredientRegister : IIngredientRegister
 
 	public Ingredient GetById(int id)
 	{
-		foreach (var ingredient in All)
+		//foreach (var ingredient in All)
+		//{
+		//	if (ingredient.Id == id)
+		//		return ingredient;
+		//}
+		//return null;
+
+		var allIngredientsWithGivenId = All
+			.Where(ingredient => ingredient.Id == id);
+
+		if (allIngredientsWithGivenId.Count() > 1)
 		{
-			if (ingredient.Id == id)
-				return ingredient;
+			throw new InvalidOperationException(
+				$"More than one ingredients has ID equal to {id}.");
 		}
-		return null;
+
+		return allIngredientsWithGivenId.FirstOrDefault();
 	}
 }
