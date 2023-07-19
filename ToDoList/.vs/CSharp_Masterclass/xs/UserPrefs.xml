@@ -1,12 +1,15 @@
-﻿<Properties StartupConfiguration="{F5B27168-0EE8-4881-A3A6-698DFB86349B}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{563305D5-A528-4297-92A2-D403C302D216}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CSV_Processing_Improvements/CsvReading/CsvReader.cs">
+    <Files>
+      <File FileName="../CSV_Processing_Improvements/Program.cs" Line="60" Column="1" />
+      <File FileName="../CSV_Processing_Improvements/CsvReading/CsvReader.cs" Line="7" Column="1" />
+      <File FileName="../CSV_Processing_Improvements/Interface/ITableData.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharp_Masterclass" expanded="True">
-            <Node name="GameDataParser" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="CookieCookbookWithLinq" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -15,10 +18,11 @@
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CsvDataAccess FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.CustomCache PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CookieCookbookWithLinq FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CookieCookbookWithLinq PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tester PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <DisabledProjects>

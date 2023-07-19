@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCache", "..\CustomCac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieCookbookWithLinq", "..\CookieCookbookWithLinq\CookieCookbookWithLinq.csproj", "{F5B27168-0EE8-4881-A3A6-698DFB86349B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvDataAccess", "..\CsvDataAccess\CsvDataAccess.csproj", "{563305D5-A528-4297-92A2-D403C302D216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F5B27168-0EE8-4881-A3A6-698DFB86349B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B27168-0EE8-4881-A3A6-698DFB86349B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B27168-0EE8-4881-A3A6-698DFB86349B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563305D5-A528-4297-92A2-D403C302D216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563305D5-A528-4297-92A2-D403C302D216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563305D5-A528-4297-92A2-D403C302D216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563305D5-A528-4297-92A2-D403C302D216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

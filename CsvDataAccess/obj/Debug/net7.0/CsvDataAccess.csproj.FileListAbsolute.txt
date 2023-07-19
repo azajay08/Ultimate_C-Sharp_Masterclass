@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/bin/Debug/net7.0/CsvDataAccess
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/bin/Debug/net7.0/CsvDataAccess.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/bin/Debug/net7.0/CsvDataAccess.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/bin/Debug/net7.0/CsvDataAccess.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/bin/Debug/net7.0/CsvDataAccess.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/refint/CsvDataAccess.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/CsvDataAccess.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CsvDataAccess/obj/Debug/net7.0/ref/CsvDataAccess.dll
