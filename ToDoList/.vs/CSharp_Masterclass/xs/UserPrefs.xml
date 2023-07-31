@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{563305D5-A528-4297-92A2-D403C302D216}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../CSV_Processing_Improvements/CsvReading/CsvReader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CsvDataAccess/NewSolution/FastTableDataBuilder.cs">
     <Files>
-      <File FileName="../CSV_Processing_Improvements/Program.cs" Line="60" Column="1" />
-      <File FileName="../CSV_Processing_Improvements/CsvReading/CsvReader.cs" Line="7" Column="1" />
-      <File FileName="../CSV_Processing_Improvements/Interface/ITableData.cs" Line="1" Column="1" />
+      <File FileName="../CsvDataAccess/Program.cs" Line="20" Column="49" />
+      <File FileName="../CsvDataAccess/CsvReading/CsvReader.cs" Line="20" Column="2" />
+      <File FileName="../CsvDataAccess/NewSolution/FastTableDataBuilder.cs" Line="1" Column="1" />
+      <File FileName="../CsvDataAccess/NewSolution/FastTableData.cs" Line="22" Column="1" />
+      <File FileName="../CsvDataAccess/NewSolution/FastRow.cs" Line="43" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CSharp_Masterclass" expanded="True">
-            <Node name="CookieCookbookWithLinq" selected="True" />
+          <Node name="CSharp_Masterclass">
+            <Node name="CsvDataAccess">
+              <Node name="NewSolution">
+                <Node name="FastTableDataBuilder.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -18,7 +24,7 @@
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DiceRollGame PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CsvDataAccess FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CsvDataAccess PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.CustomCache PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
@@ -31,5 +37,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CookieCookbook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FirstClass PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
