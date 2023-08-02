@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieCookbookWithLinq", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvDataAccess", "..\CsvDataAccess\CsvDataAccess.csproj", "{563305D5-A528-4297-92A2-D403C302D216}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsPlanetsStats", "..\StarWarsPlanetsStats\StarWarsPlanetsStats.csproj", "{5B673CFA-2169-43A3-A818-229E3223D735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{563305D5-A528-4297-92A2-D403C302D216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563305D5-A528-4297-92A2-D403C302D216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563305D5-A528-4297-92A2-D403C302D216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B673CFA-2169-43A3-A818-229E3223D735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B673CFA-2169-43A3-A818-229E3223D735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B673CFA-2169-43A3-A818-229E3223D735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B673CFA-2169-43A3-A818-229E3223D735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
