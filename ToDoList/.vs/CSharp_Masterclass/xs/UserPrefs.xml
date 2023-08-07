@@ -14,29 +14,25 @@
   <DisabledProjects>
     <String>ToDoList.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../CsvDataAccess/NewSolution/FastTableDataBuilder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../StarWarsPlanetsStats/Program.cs">
     <Files>
-      <File FileName="../CsvDataAccess/Program.cs" Line="20" Column="49" />
-      <File FileName="../CsvDataAccess/CsvReading/CsvReader.cs" Line="20" Column="2" />
-      <File FileName="../CsvDataAccess/NewSolution/FastTableDataBuilder.cs" Line="1" Column="1" />
-      <File FileName="../CsvDataAccess/NewSolution/FastTableData.cs" Line="22" Column="1" />
-      <File FileName="../CsvDataAccess/NewSolution/FastRow.cs" Line="43" Column="1" />
+      <File FileName="../StarWarsPlanetsStats/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharp_Masterclass">
-            <Node name="CsvDataAccess">
-              <Node name="NewSolution">
-                <Node name="FastTableDataBuilder.cs" selected="True" />
-              </Node>
+            <Node name="StarWarsPlanetsStats">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
