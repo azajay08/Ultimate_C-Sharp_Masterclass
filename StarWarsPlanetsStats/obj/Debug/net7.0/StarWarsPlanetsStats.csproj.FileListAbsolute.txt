@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/bin/Debug/net7.0/StarWarsPlanetsStats
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/bin/Debug/net7.0/StarWarsPlanetsStats.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/bin/Debug/net7.0/StarWarsPlanetsStats.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/bin/Debug/net7.0/StarWarsPlanetsStats.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/bin/Debug/net7.0/StarWarsPlanetsStats.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/refint/StarWarsPlanetsStats.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/StarWarsPlanetsStats.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/StarWarsPlanetsStats/obj/Debug/net7.0/ref/StarWarsPlanetsStats.dll
