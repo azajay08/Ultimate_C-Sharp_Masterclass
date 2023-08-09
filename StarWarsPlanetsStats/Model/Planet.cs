@@ -1,6 +1,8 @@
 ﻿using StarWarsPlanetsStats.DTOs;
 using StarWarsPlanetsStats.Utilities;
 
+namespace StarWarsPlanetsStats.Model;
+
 public readonly record struct Planet
 {
 	public string Name { get; }

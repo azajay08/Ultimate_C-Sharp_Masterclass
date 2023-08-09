@@ -11,10 +11,16 @@
     <None Remove="DTOs\" />
     <None Remove="Utilities\" />
     <None Remove="Model\" />
+    <None Remove="App\" />
+    <None Remove="DataAccess\" />
+    <None Remove="UserInteraction\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Utilities\" />
     <Folder Include="Model\" />
+    <Folder Include="App\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="UserInteraction\" />
   </ItemGroup>
 </Project>
