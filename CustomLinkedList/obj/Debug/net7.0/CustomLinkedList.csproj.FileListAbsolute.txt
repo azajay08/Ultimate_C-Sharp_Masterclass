@@ -1,0 +1,15 @@
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/bin/Debug/net7.0/CustomLinkedList
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/bin/Debug/net7.0/CustomLinkedList.deps.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/bin/Debug/net7.0/CustomLinkedList.runtimeconfig.json
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/bin/Debug/net7.0/CustomLinkedList.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/bin/Debug/net7.0/CustomLinkedList.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.csproj.AssemblyReference.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.AssemblyInfoInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.AssemblyInfo.cs
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.csproj.CoreCompileInputs.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/refint/CustomLinkedList.dll
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.pdb
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/CustomLinkedList.genruntimeconfig.cache
+/Users/aaronjones/Code/CSharp_Projects/MasterClass/CustomLinkedList/obj/Debug/net7.0/ref/CustomLinkedList.dll

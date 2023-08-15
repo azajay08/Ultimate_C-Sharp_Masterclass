@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{5B673CFA-2169-43A3-A818-229E3223D735}|Default">
+﻿<Properties StartupConfiguration="{6C03B794-FDD7-45F0-AB78-EC23767541B6}|Default">
   <MonoDevelop.Ide.ItemProperties.GameDataParser PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
@@ -27,6 +27,7 @@
     <String>ToDoList.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomLinkedList PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.StarWarsPlanetsStats PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
