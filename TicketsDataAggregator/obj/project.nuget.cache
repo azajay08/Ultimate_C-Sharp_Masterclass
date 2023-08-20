@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "USQ95yibf4gIw2wMTayvWimKAdEkYXYJaibxgD2YrsK1n6OKsLGFxM4dQoU5oYOnxIDcRcqamAUy38ea1bYyPQ==",
+  "success": true,
+  "projectFilePath": "/Users/aaronjones/Code/CSharp_Projects/MasterClass/TicketsDataAggregator/TicketsDataAggregator.csproj",
+  "expectedPackageFiles": [
+    "/Users/aaronjones/.nuget/packages/pdfpig/0.1.8/pdfpig.0.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
