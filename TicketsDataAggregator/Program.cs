@@ -1,13 +1,13 @@
-﻿
-using UglyToad.PdfPig;
-using UglyToad.PdfPig.Content;
+﻿using TicketsDataAggregator.FileAccess;
+using TicketsDataAggregator.TicketsAggregation;
 
 const string TicketsFolder = "Tickets";
-
 try
 {
 	var ticketsAggregator = new TicketsAggregator(
-		TicketsFolder);
+		TicketsFolder,
+		new FileWriter(),
+		new DocumentsFromPdfsReader());
 
 	ticketsAggregator.Run();
 }
@@ -19,27 +19,3 @@ catch (Exception ex)
 
 Console.WriteLine("Press any key to close.");
 Console.ReadKey();
-
-
-public class TicketsAggregator
-{
-	private readonly string _ticketsFolder;
-
-	public TicketsAggregator(
-		string ticketsFolder)
-	{
-		_ticketsFolder = ticketsFolder;
-	}
-
-	public void Run()
-	{
-		using (PdfDocument document = PdfDocument.Open(_ticketsFolder + "/Tickets1.pdf"))
-		{
-
-			// Page number starts from 1, not 0.
-			Page page = document.GetPage(1);
-			string text = page.Text;
-		}
-
-	}
-}

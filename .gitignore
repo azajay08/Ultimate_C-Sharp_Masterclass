@@ -97,3 +97,14 @@ TicketsDataAggregator/obj/project.nuget.cache
 TicketsDataAggregator/obj/TicketsDataAggregator.csproj.nuget.dgspec.json
 TicketsDataAggregator/obj/Debug/net7.0/TicketsDataAggregator.csproj.AssemblyReference.cache
 ToDoList/.DS_Store
+.DS_Store
+TicketsDataAggregator/bin/Debug/net7.0/TicketsDataAggregator
+TicketsDataAggregator/bin/Debug/net7.0/TicketsDataAggregator.dll
+TicketsDataAggregator/bin/Debug/net7.0/TicketsDataAggregator.pdb
+TicketsDataAggregator/obj/Debug/net7.0/apphost
+TicketsDataAggregator/obj/Debug/net7.0/TicketsDataAggregator.csproj.CoreCompileInputs.cache
+TicketsDataAggregator/obj/Debug/net7.0/TicketsDataAggregator.dll
+TicketsDataAggregator/obj/Debug/net7.0/TicketsDataAggregator.pdb
+TicketsDataAggregator/obj/Debug/net7.0/ref/TicketsDataAggregator.dll
+TicketsDataAggregator/obj/Debug/net7.0/refint/TicketsDataAggregator.dll
+TicketsDataAggregator/.vs/TicketsDataAggregator/xs/project-cache/TicketsDataAggregator-Debug.json
