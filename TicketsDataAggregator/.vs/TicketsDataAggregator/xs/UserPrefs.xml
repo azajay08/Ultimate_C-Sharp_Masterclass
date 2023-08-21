@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{AC4F65AF-68FC-4AC1-A6C9-3BB5C0EABFFC}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TicketsDataAggregator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TicketsDataAggregator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicketsAggregation/TicketsAggregator.cs">
     <Files>
-      <File FileName="Program.cs" Line="13" Column="2" />
+      <File FileName="Program.cs" Line="22" Column="1" />
+      <File FileName="Extensions/WebAddressExtensions.cs" Line="12" Column="1" />
+      <File FileName="FileAccess/DocumentsFromPdfsReader.cs" Line="20" Column="1" />
+      <File FileName="FileAccess/FileWriter.cs" Line="13" Column="1" />
+      <File FileName="FileAccess/IDocumentsReader.cs" Line="7" Column="1" />
+      <File FileName="FileAccess/IFileWriter.cs" Line="8" Column="1" />
+      <File FileName="TicketsAggregation/TicketsAggregator.cs" Line="48" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TicketsDataAggregator">
-            <Node name="TicketsDataAggregator" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
