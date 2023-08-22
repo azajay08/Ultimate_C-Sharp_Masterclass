@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{25317D81-2997-4B8E-8354-3746671C6EDE}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FibonacciGeneratorTests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FibonacciGenerator PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>

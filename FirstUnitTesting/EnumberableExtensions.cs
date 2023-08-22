@@ -1,4 +1,7 @@
-﻿namespace FirstUnitTesting;
+﻿// [assembly:InternalsVisibleTo("FirstUnitTestingTests")]
+// ^^^ This can be added to test internal methods
+
+namespace FirstUnitTesting;
 
 public static class EnumberableExtensions
 {

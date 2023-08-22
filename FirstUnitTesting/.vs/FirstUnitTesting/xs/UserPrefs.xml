@@ -1,16 +1,23 @@
 ﻿<Properties StartupConfiguration="{16467170-0E76-4F10-8348-E3EB9828611B}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../FirstUnitTestingTests/EnumerableExtensionsTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EnumberableExtensions.cs">
     <Files>
-      <File FileName="Program.cs" Line="8" Column="19" />
-      <File FileName="EnumberableExtensions.cs" Line="1" Column="1" />
-      <File FileName="../FirstUnitTestingTests/Class1.cs" Line="22" Column="1" />
+      <File FileName="Program.cs" Line="7" Column="7" />
+      <File FileName="EnumberableExtensions.cs" Line="2" Column="50" />
+      <File FileName="../FirstUnitTestingTests/EnumerableExtensionsTests.cs" Line="112" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FirstUnitTesting" expanded="True" />
+          <Node name="FirstUnitTesting" expanded="True">
+            <Node name="FirstUnitTesting">
+              <Node name="EnumberableExtensions.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

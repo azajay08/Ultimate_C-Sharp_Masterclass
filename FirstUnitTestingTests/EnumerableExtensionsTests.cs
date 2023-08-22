@@ -84,8 +84,8 @@ public class EnumerableExtensionsTests
 			$"the result shall be {expected} but it was {result}.");
 	}
 
-	// The method must be delcared as static and use the generic <object> unless
-	// we want to use the system.collection
+	// The method must be delcared as static we return the generic <object> unless
+	// we want to use the System.Collections
 	private static IEnumerable<object> GetSumOfEvenNumbersTestCases()
 	{
 		return new[]
@@ -95,6 +95,17 @@ public class EnumerableExtensionsTests
 			 new object[] { new List<int> { -3, -5, 0 }, 0 },
 			 new object[] { new List<int> { -4, -8 }, -12 },
 		 };
+	}
+
+	[Test]
+	public void SumOfEvenNumbers_ShallThrowException_ForNullInput()
+	{
+		IEnumerable<int>? input = null;
+
+		var exception = Assert.Throws<ArgumentNullException>(
+			() => input!.SumOfEvenNumbers());
+		// The 'input' would show a warning here but we can silence it with
+		// the '!' (The null forgiving operator)
 	}
 }
 
