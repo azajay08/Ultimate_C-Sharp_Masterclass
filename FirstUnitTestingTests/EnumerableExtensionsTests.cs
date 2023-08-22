@@ -71,5 +71,30 @@ public class EnumerableExtensionsTests
 
 		Assert.AreEqual(expected, result);
 	}
+
+	// Test case Source allows us to add variations of iEnumberables
+	[TestCaseSource(nameof(GetSumOfEvenNumbersTestCases))]
+	public void SumOfEvenNumbers_ShallReturnNonZeroResult_IfEvenNumbersArePresent(
+		IEnumerable<int> input, int expected)
+	{
+		var result = input.SumOfEvenNumbers();
+
+		var inputAsString = string.Join(", ", input);
+		Assert.AreEqual(expected, result, $"For input {inputAsString} " +
+			$"the result shall be {expected} but it was {result}.");
+	}
+
+	// The method must be delcared as static and use the generic <object> unless
+	// we want to use the system.collection
+	private static IEnumerable<object> GetSumOfEvenNumbersTestCases()
+	{
+		return new[]
+		{
+			 new object[] { new int[] { 3, 1, 4, 6, 9 }, 10 },
+			 new object[] { new List<int> { 100, 200, 1 }, 300 },
+			 new object[] { new List<int> { -3, -5, 0 }, 0 },
+			 new object[] { new List<int> { -4, -8 }, -12 },
+		 };
+	}
 }
 
