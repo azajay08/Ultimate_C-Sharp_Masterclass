@@ -1,11 +1,8 @@
-﻿using System;
-namespace GuessingGame.Game
+﻿namespace Game
 {
-	public class GameResult
+	public enum GameResult
 	{
-		public GameResult()
-		{
-		}
+		Victory,
+		Loss
 	}
 }
-

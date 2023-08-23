@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{FE1BE972-5EDC-47A1-8FD5-FA7867A3B2F1}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.GuessingGame FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.GuessingGame PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.GuessingGameTests FirstBuild="True" />
 </Properties>

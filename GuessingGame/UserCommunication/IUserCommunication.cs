@@ -1,11 +1,7 @@
-﻿using System;
-namespace GuessingGame.UserCommunication
-{
-	public class IUserCommunication
-	{
-		public IUserCommunication()
-		{
-		}
-	}
-}
+﻿namespace UserCommunication;
 
+public interface IUserCommunication
+{
+	int ReadInteger(string prompt);
+	void ShowMessage(string message);
+}

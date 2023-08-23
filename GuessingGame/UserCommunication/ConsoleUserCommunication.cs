@@ -1,11 +1,20 @@
-﻿using System;
-namespace GuessingGame.UserCommunication
+﻿namespace UserCommunication;
+
+public class ConsoleUserCommunication : IUserCommunication
 {
-	public class ConsoleUserCommunication
+	public int ReadInteger(string prompt)
 	{
-		public ConsoleUserCommunication()
+		int result;
+		do
 		{
+			Console.WriteLine(prompt);
 		}
+		while (!int.TryParse(Console.ReadLine(), out result));
+		return result;
+	}
+
+	public void ShowMessage(string message)
+	{
+		Console.WriteLine(message);
 	}
 }
-

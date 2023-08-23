@@ -1,11 +1,6 @@
-﻿using System;
-namespace GuessingGame.Game
-{
-	public class IDice
-	{
-		public IDice()
-		{
-		}
-	}
-}
+﻿namespace Game;
 
+public interface IDice
+{
+	int Roll();
+}
