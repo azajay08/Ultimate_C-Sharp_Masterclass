@@ -1,11 +1,4 @@
-﻿using System;
-namespace UnitTestPractice
+﻿public static class Calculator
 {
-	public class EmptyClass
-	{
-		public EmptyClass()
-		{
-		}
-	}
+	public static int Sum(int a, int b) => a + b;
 }
-

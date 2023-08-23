@@ -1,11 +1,3 @@
-﻿using System;
-namespace UnitTestPractice
-{
-	public class Person
-	{
-		public Person()
-		{
-		}
-	}
-}
+﻿namespace UnitTestPractice;
 
+public record Person(int Id, string FirstName, string LastName);
