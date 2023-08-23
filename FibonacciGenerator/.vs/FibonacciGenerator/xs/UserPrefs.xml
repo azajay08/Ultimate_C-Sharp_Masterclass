@@ -1,5 +1,30 @@
 ﻿<Properties StartupConfiguration="{25317D81-2997-4B8E-8354-3746671C6EDE}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.FibonacciGeneratorTests FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FibonacciGenerator PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FibonacciGeneratorTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fibonacci.cs">
+    <Files>
+      <File FileName="Program.cs" Line="20" Column="1" />
+      <File FileName="../FibonacciGeneratorTests/Class1.cs" Line="66" Column="1" />
+      <File FileName="EmptyClass.cs" Line="4" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FibonacciGenerator" expanded="True">
+            <Node name="FibonacciGenerator" expanded="True" />
+            <Node name="FibonacciGeneratorTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FibonacciGenerator PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
