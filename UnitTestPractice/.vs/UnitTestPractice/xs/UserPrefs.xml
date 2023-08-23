@@ -1,5 +1,37 @@
 ﻿<Properties StartupConfiguration="{0184AF21-C9FF-46B5-8CD4-25842C7BC2AE}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.UnitTestPractice PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.UnitTestPracticeTests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../UnitTestPracticeTests/PersonalDataReaderTests.cs">
+    <Files>
+      <File FileName="Program.cs" Line="37" Column="2" />
+      <File FileName="EmptyClass.cs" Line="4" Column="2" />
+      <File FileName="DatabaseConnection.cs" Line="37" Column="1" />
+      <File FileName="EnumerableExtensions.cs" Line="1" Column="39" />
+      <File FileName="IDatabaseConnection.cs" Line="3" Column="28" />
+      <File FileName="Person.cs" Line="1" Column="28" />
+      <File FileName="PersonalDataReader.cs" Line="21" Column="3" />
+      <File FileName="../UnitTestPracticeTests/Class1.cs" Line="19" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnitTestPractice">
+            <Node name="UnitTestPracticeTests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UnitTestPractice">
+            <Node name="UnitTestPracticeTests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.UnitTestPractice PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
